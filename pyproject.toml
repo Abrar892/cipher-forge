@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.backends.legacy:build"
+
+[project]
+name = "cipher-forge"
+version = "0.1.0"
+description = "Educational cryptography toolkit implementing classical and modern ciphers from scratch"
+authors = [{name = "Abrar892", email = "m.abrar.j40@gmail.com"}]
+requires-python = ">=3.10"
+readme = "README.md"
+license = {text = "MIT"}
+
+[project.scripts]
+cipher-forge = "cipher_forge.cli:main"
